@@ -1,0 +1,12 @@
+target 'Day1UP' do
+	pod 'AFNetworking'
+	pod 'SDAutoLayout'
+	pod 'SDWebImage'
+	pod 'MJRefresh'
+	pod 'TTTAttributedLabel'
+	pod 'YYKit'
+	pod 'JKCategories'
+	pod 'SVProgressHUD'
+	pod 'MWPhotoBrowser'
+end
+

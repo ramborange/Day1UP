@@ -1,0 +1,41 @@
+//
+//  PCHPrefixHeader.pch
+//  Day1UP
+//
+//  Created by ramborange on 16/9/26.
+//  Copyright © 2016年 Rambos. All rights reserved.
+//
+
+#ifndef PCHPrefixHeader_pch
+#define PCHPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file
+
+#import "AFNetworking.h"
+#import "SDAutoLayout.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "SVProgressHUD.h"
+#import "TTTAttributedLabel.h"
+#import "YYKit.h"
+#import "Header.h"
+
+#import "DataRequestHelper.h"
+#import "DataSaveManager.h"
+
+#import "MJRefresh.h"
+#import "UIImageView+JKLetters.h"
+#import "UIColor+JKRandom.h"
+#import "UIButton+JKBlock.h"
+#import "MWPhoto.h"
+#import "MWPhotoBrowser.h"
+#import <CoreData/CoreData.h>
+#import "AppDelegate.h"
+
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r green:g blue:b alpha:a]
+#define screen_width [UIScreen mainScreen].bounds.size.width
+#define screen_height [UIScreen mainScreen].bounds.size.height
+
+
+#endif /* PCHPrefixHeader_pch */
